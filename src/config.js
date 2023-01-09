@@ -1,0 +1,1 @@
+export const nftContractAddress = "0x88A0dA7c8e00c1aE6A0A7B67DdBB836c90ea0807"

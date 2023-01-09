@@ -1,0 +1,319 @@
+body {
+  background-color: #1D1B1B;
+  color: #FFFEFE;
+}
+
+a {
+  color: #FFFEFE
+}
+
+/* Navbar */
+nav {
+  color: #FFFEFE;
+  height: 30px;
+  display: flex;
+  padding: 30px 20px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(236, 229, 229, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.nav--logo {
+  height: 65px;
+  padding: 10px 0px 5px 5px;
+
+}
+
+.nav--left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav--left span {
+  font-family: "Joti One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 37px;
+
+}
+
+.nav--right {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  align-items: center;
+  padding: 5px;
+  margin: 5px 8px;
+}
+
+.nav--icons {
+  font-size: 25px;
+  padding: 5px;
+  margin: 5px 8px;
+}
+
+.nav--button {
+  height: 40px;
+  margin: 0 5px;
+  background-color: #1D1B1B;
+  color: #FFFEFE;
+  padding: 8px;
+  border-style: solid;
+  border-color: #333232;
+  border-width: 1px;
+  font-weight: bold;
+}
+
+.nav--button:hover {
+  background-color: #FFFEFE;
+  color: #1D1B1B;
+}
+
+
+/* Header */
+
+.header--section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header--text {
+  max-width: 80%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 35px;
+
+}
+
+.header--plain--text {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 75.5903px;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.header--text h4 {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  margin-top: 10;
+}
+
+.header--bg--white--text {
+  background-color: #FFFEFE;
+  color: #1D1B1B;
+
+}
+
+.collection--link {
+  color: #FFFEFE;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 35px;
+
+}
+
+.header--btngroup button {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  padding: 8px;
+}
+
+.btn-1 {
+  border-style: none;
+}
+
+.mint--btn {
+  color: #FFFEFE;
+  background-color: #1D1B1B;
+  padding: 8px;
+  border-style: solid;
+  border-color: #4b4949;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.mint--btn:hover {
+  background-color: #FFFEFE;
+  color: #1D1B1B;
+}
+
+.header--dolphins-img {
+  margin-top: 50px;
+  width: 100%;
+
+
+}
+
+/* About  */
+.about--section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 30px;
+}
+
+.about--text {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  padding: 40px;
+  margin: 20px;
+}
+
+.about--text h4 {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #969595;
+  margin-bottom: 0;
+}
+
+.about--text h2 {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  margin-bottom: 0;
+  margin-top: 4px;
+}
+
+.about--text h3 {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 120%;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.about--card {
+  padding: 5px;
+  margin: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4b4949;
+  border-radius: 5px;
+}
+
+.about--card span {
+  padding: 10px;
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.card--img {
+  height: 250px;
+  padding: 20px;
+}
+
+.heart--icon {
+  color: #FF0000;
+  font-size: 20px;
+
+}
+
+
+/* Collect */
+
+.collect--section {
+  margin: 20px 0px;
+  padding: 40px;
+  background-color: #333232;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./images/collect-img.png");
+
+}
+
+.collect--text {
+  margin-top: 35px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.collect--plain--text {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 75.5903px;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.collect--bg--white--text {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 75.5903px;
+  margin-top: 0;
+  margin-bottom: 35px;
+  background-color: #FFFEFE;
+  color: #1D1B1B;
+}
+
+.collect--button {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  padding: 8px;
+  color: #FFFEFE;
+  background-color: #131212;
+  border-style: solid;
+  border-color: #2b2727;
+  border-width: 1px;
+  cursor: pointer;
+
+}
+
+.collect--button a {
+  text-decoration: none;
+
+}
+
+
+.footer {
+  height: 20px;
+  text-align: center;
+  align-self: center;
+  padding-bottom: 20px;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+}

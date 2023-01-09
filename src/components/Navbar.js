@@ -4,12 +4,9 @@ import dolphinLogo from '../images/dolphin-logo.png'
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { useState, useEffect } from 'react'
-import { nftContractAddress } from '../config.js'
-import { BigNumber, ethers } from 'ethers'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import axios from 'axios'
-import NFT from '../utils/DolphnNFT.json'
+
 
 function Navbar() {
     const [walletText, setWalletText] = useState("CONNECT WALLET")
